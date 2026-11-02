@@ -193,8 +193,8 @@ button.btn{background:none;color:var(--ink);font:600 16px "Instrument Sans",sans
 <li class="rv"><div class="when">07/2024 – 09/2024</div><h3>Continuous Improvement Engineer Intern</h3><div class="org">Breadfast, 5th Settlement</div>
 <ul><li>Found production inefficiencies with Lean waste analysis and improved bakery workflow.</li>
 <li>Analysed data across 5 product lines and proposed changes to raise Donuts line capacity by 16%.</li>
-<li>Built an Excel dashboard to track production KPIs.</li>
-<li>Monitored workforce productivity and cycle times against daily targets.</li></ul>
+<li>Built a multi-sheet Excel production dashboard (Sandwiches &amp; Salads) tracking plan vs actual, PMH, shift efficiency, wasted hours and process cycle times for line balancing — see <a href="#projects">Projects</a>.</li>
+<li>Monitored workforce productivity and cycle times against daily targets and recommended worker reallocation.</li></ul>
 <div class="gal"><figure><img class="zoom" src="assets/breadfast-logo.jpg" alt="Andrew at the Breadfast office" loading="lazy"><figcaption>At the Breadfast office</figcaption></figure>
 <figure><img class="zoom" src="assets/breadfast-certificate-day.jpg" alt="Andrew receiving the Breadfast internship certificate" loading="lazy"><figcaption>Receiving my certificate</figcaption></figure>
 <figure class="wide"><img class="zoom" src="assets/breadfast-team.jpg" alt="Team photo from the Breadfast internship" loading="lazy"><figcaption>Team moment, Summer Internship Program</figcaption></figure></div></li>
@@ -211,9 +211,31 @@ button.btn{background:none;color:var(--ink);font:600 16px "Instrument Sans",sans
 </section>
 
 <section id="projects">
-<h2 class="rv">Kandil Glass projects</h2>
-<p class="lead rv">Tools I build to turn slow, error-prone packaging calculations into fast, trusted decisions.</p>
+<h2 class="rv">Selected projects</h2>
+<p class="lead rv">Dashboards and tools that turn production and packaging data into clearer decisions and higher throughput.</p>
+
 <div class="proj rv">
+<div class="pj-head"><span class="tag">Breadfast</span><h3>Production Rate &amp; Line Balance Dashboard <small>Sandwiches &amp; Salads</small></h3></div>
+<div class="pj-grid" style="grid-template-columns:1fr">
+<div class="pj-info" style="max-width:none">
+<div class="kpis">
+<div><b>~83%</b><span>avg Morning efficiency (Sandwiches)</span></div>
+<div><b>~81%</b><span>avg Between efficiency (Sandwiches)</span></div>
+<div><b>~3.2 h</b><span>wasted / Morning shift</span></div>
+<div><b>~2.6 h</b><span>wasted / Between shift</span></div>
+</div>
+<ul class="pts">
+<li><b>Two factories / lines monitored:</b> Sandwiches (10 SKUs) and Salads (7 SKUs) across Morning and Between shifts, with daily plan quantities, actual output, PMH and estimated hours.</li>
+<li><b>Efficiency &amp; waste visibility:</b> real working hours vs available capacity. Morning Sandwiches ~4.8 h productive vs ~3.2 h wasted; Between ~5.4 h productive vs ~2.6 h wasted. Salads efficiencies lower (~68–74%), highlighting larger opportunity.</li>
+<li><b>Line balancing insights:</b> process-level cycle times (e.g. Turkey &amp; Cheese, Smoked Salmon Bagel) expose bottlenecks such as “Adding Turkey &amp; Rumy” (~3:50). Workers can be reallocated from high-PMH stations to constrained ones to raise overall rate without extra headcount.</li>
+<li><b>Actionable KPIs:</b> PMH by product, plan vs actual, shift totals, monthly averages and rest-of-capacity so supervisors see where to focus standard work and reduce waiting / changeover loss.</li>
+<li><b>Impact path:</b> raise effective production rate by cutting wasted hours and balancing the line; same workforce, higher daily output and more stable flow.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="proj rv" style="margin-top:28px">
 <div class="pj-head"><span class="tag">Kandil Glass</span><h3>NEXUS <small>Packaging Specification Generator</small></h3></div>
 <div class="pj-grid">
 <div class="reel" id="reel" aria-label="NEXUS demo reel">
@@ -270,9 +292,7 @@ var C=[
 ["sprints-product-management","Product Management","Sprints x Microsoft Summer Camp, 40 hrs","ID SPR-T39L1S"],
 ["gb-corp-internship","GB Corp Summer Internship","Manufacturing, Sep 2023","Completed with good performance"],
 ["six-sigma-yellow-belt","Lean Six Sigma Yellow Belt","6SigmaStudy, granted 17 Sep 2024","ID 896097"],
-["breadfast","Breadfast Internship","Certificate of Appreciation, Manufacturing Department, 14 Jul – 8 Sep 2024","Certificate"],
-["innovegypt","Innovegypt / ITIDA","Entrepreneurship, 2023","ID C0371S23T0651"],
-["mint-program","MINT Program","Certificate of completion",""]];
+["breadfast","Breadfast Internship","Certificate of Appreciation, Manufacturing Department, 14 Jul – 8 Sep 2024","Certificate"]];
 var box=document.getElementById('certs');
 C.forEach(function(c){
  var d=document.createElement('div');d.className='cert rv';

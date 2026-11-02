@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Andrew George Sabry – Operational Excellence Engineer</title>
+<meta name="description" content="Operational Excellence Engineer focused on Lean, Six Sigma, data and AI for smart smartphone manufacturing.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#050b1f;--bg2:#0a1536;--ink:#eaf0ff;--mute:#9db0d6;--blue:#2f6bff;--blue2:#5fa0ff;--red:#ff2e4d;--line:rgba(120,160,255,.22);--glass:rgba(14,26,66,.62)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:radial-gradient(1200px 700px at 80% -10%,#10265f 0,transparent 60%),radial-gradient(900px 600px at -10% 40%,#3a0a1d 0,transparent 55%),var(--bg);color:var(--ink);font:400 17px/1.65 "Instrument Sans",system-ui,sans-serif;overflow-x:hidden;padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
+h1,h2,h3{font-family:"Familjen Grotesk","Helvetica Neue",Arial,sans-serif;line-height:1.08;margin:0}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+#fx{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none}
+#glow{position:fixed;width:420px;height:420px;margin:-210px 0 0 -210px;border-radius:50%;background:radial-gradient(circle,rgba(47,107,255,.22),rgba(255,46,77,.1) 45%,transparent 70%);pointer-events:none;z-index:0;left:50%;top:30%;transition:left .25s,top .25s}
+.wrap{position:relative;z-index:1;max-width:1060px;margin:0 auto;padding:0 24px}
+nav{position:sticky;top:0;z-index:5;display:flex;gap:22px;justify-content:flex-end;padding:16px 24px;font-size:15px;flex-wrap:wrap;backdrop-filter:blur(10px);background:rgba(5,11,31,.55)}
+nav a{text-decoration:none;color:var(--mute)}nav a:hover{color:#fff}
+.hero{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center;padding:40px 0 90px}
+h1{font-size:clamp(46px,7.4vw,92px);font-weight:700;letter-spacing:-.035em;background:linear-gradient(100deg,#fff 0,var(--blue2) 40%,var(--red) 75%,#fff 100%);background-size:250% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:sheen 7s ease-in-out infinite alternate}
+@keyframes sheen{to{background-position:100% 0}}
+.role{font:500 clamp(20px,2.6vw,28px)/1.3 "Familjen Grotesk",sans-serif;margin:18px 0 14px;color:var(--blue2);min-height:2.6em}
+.role b{color:var(--red);font-weight:500;animation:blink 1s steps(2) infinite}@keyframes blink{50%{opacity:0}}
+.hero p{max-width:52ch;color:var(--mute);margin:0 0 28px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:13px 26px;border-radius:999px;font-weight:600;text-decoration:none;border:1.5px solid var(--blue);transition:transform .25s,box-shadow .25s}
+.btn:hover{transform:translateY(-3px);box-shadow:0 10px 30px -8px var(--blue)}
+.btn.p{background:linear-gradient(100deg,var(--blue),var(--red));border-color:transparent;color:#fff}
+.btn.p:hover{box-shadow:0 10px 30px -8px var(--red)}
+.photo{position:relative;width:min(340px,80vw);aspect-ratio:1;margin:auto}
+.photo::before{content:"";position:absolute;inset:-10px;border-radius:50%;background:conic-gradient(from 0deg,var(--blue),var(--red),#fff,var(--blue));animation:spin 6s linear infinite;filter:blur(1px)}
+.photo::after{content:"";position:absolute;inset:-34px;border-radius:50%;border:1px dashed var(--line);animation:spin 30s linear infinite reverse}
+@keyframes spin{to{transform:rotate(360deg)}}
+.photo .face{position:absolute;inset:0;border-radius:50%;background:var(--bg2);overflow:hidden;display:grid;place-items:center;border:6px solid var(--bg);z-index:1}
+.photo img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}
+.photo .ini{font:700 96px "Familjen Grotesk",sans-serif;color:var(--blue2)}
+section{padding:72px 0;border-top:1px solid var(--line)}
+h2{font-size:clamp(30px,4vw,46px);margin-bottom:12px;letter-spacing:-.02em}
+h2::after{content:"";display:block;width:64px;height:4px;margin-top:12px;border-radius:4px;background:linear-gradient(90deg,var(--blue),var(--red))}
+.lead{color:var(--mute);max-width:60ch;margin:0 0 36px}
+.nums{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.num,.card,.cert{background:var(--glass);border:1px solid var(--line);border-radius:16px;padding:22px;backdrop-filter:blur(8px)}
+.num b{display:block;font:700 46px/1 "Familjen Grotesk",sans-serif;background:linear-gradient(120deg,var(--blue2),var(--red));-webkit-background-clip:text;background-clip:text;color:transparent;margin-bottom:8px}
+.num span{font-size:15px;color:var(--mute)}
+.tl{position:relative;margin:0;padding:0 0 0 30px;list-style:none;border-left:3px solid;border-image:linear-gradient(var(--blue),var(--red)) 1}
+.tl>li{position:relative;padding:0 0 36px}
+.tl>li::before{content:"";position:absolute;left:-40px;top:6px;width:16px;height:16px;border-radius:50%;background:var(--bg);border:3px solid var(--blue2)}
+.tl>li.now::before{background:var(--red);border-color:var(--red);animation:pulse 2s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(255,46,77,.6)}100%{box-shadow:0 0 0 16px transparent}}
+.when{font-size:14px;color:var(--mute)}
+.tl h3{font-size:23px;margin:2px 0}
+.org{color:var(--blue2);font-weight:600;margin-bottom:8px}
+.tl ul{margin:0;padding-left:18px;color:var(--mute)}.tl li li{padding:0 0 4px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+.card h3{font-size:20px;margin-bottom:8px;color:#fff}.card p,.card ul{margin:0;color:var(--mute);font-size:16px}.card ul{padding-left:18px}
+.card{transition:border-color .3s,transform .3s}.card:hover{border-color:var(--red);transform:translateY(-4px)}
+.certs{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.cert{padding:12px;perspective:800px;transform-style:preserve-3d;transition:transform .15s ease-out,border-color .3s;cursor:zoom-in}
+.cert:hover{border-color:var(--blue2)}
+.cert .pic{aspect-ratio:1.414;border-radius:10px;overflow:hidden;position:relative;background:linear-gradient(135deg,#0d1f55,#3a0a1d);display:grid;place-items:center;text-align:center;padding:16px}
+.cert img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.cert .pic::after{content:"";position:absolute;inset:0;background:linear-gradient(115deg,transparent 35%,rgba(255,255,255,.35) 50%,transparent 65%);transform:translateX(-120%);transition:transform .8s}
+.cert:hover .pic::after{transform:translateX(120%)}
+.cert .ph{font:700 22px "Familjen Grotesk",sans-serif}
+.cert .ph small{display:block;font:400 14px "Instrument Sans",sans-serif;color:var(--mute);margin-top:6px}
+.cert h3{font-size:18px;margin:12px 4px 2px}.cert p{margin:0 4px 4px;color:var(--mute);font-size:14px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.chips span{border:1px solid var(--line);border-radius:999px;padding:4px 14px;font-size:14px}
+#lb{position:fixed;inset:0;background:rgba(2,6,20,.92);z-index:20;display:none;place-items:center;padding:20px;cursor:zoom-out}
+#lb.on{display:grid}#lb img{max-width:100%;max-height:92vh;border-radius:10px;box-shadow:0 0 80px rgba(47,107,255,.5)}
+.contact{text-align:center}.contact h2::after{margin-inline:auto}.contact .btns{justify-content:center}.contact .lead{margin-inline:auto}
+footer{position:relative;z-index:1;padding:28px 0 40px;color:var(--mute);font-size:14px;text-align:center;border-top:1px solid var(--line)}
+.js .rv{opacity:0;transform:translateY(28px) scale(.98);filter:blur(6px);transition:opacity .8s,transform .8s,filter .8s}
+.js .rv.in{opacity:1;transform:none;filter:none}
+@media(max-width:820px){.hero{grid-template-columns:1fr;text-align:left}.nums{grid-template-columns:1fr 1fr}nav{justify-content:flex-start}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.js .rv{opacity:1;transform:none;filter:none}html{scroll-behavior:auto}}
+#bar{position:fixed;top:0;left:0;height:3px;width:0;z-index:60;background:linear-gradient(90deg,var(--blue),var(--red));box-shadow:0 0 12px var(--red)}
+#boot{position:fixed;inset:0;z-index:50;background:var(--bg);display:none;place-items:center;transition:opacity .8s,visibility .8s;animation:bootoff .1s 3s forwards}
+.js #boot{display:grid}#boot.off{opacity:0;visibility:hidden}
+@keyframes bootoff{to{opacity:0;visibility:hidden}}
+#boot div{text-align:center;font:700 clamp(56px,14vw,120px) "Familjen Grotesk",sans-serif;letter-spacing:-.04em;background:linear-gradient(100deg,var(--blue2),var(--red));-webkit-background-clip:text;background-clip:text;color:transparent}
+#boot span{display:block;width:min(260px,60vw);height:3px;margin:10px auto 0;background:var(--line);border-radius:3px;overflow:hidden}
+#boot span::after{content:"";display:block;height:100%;background:linear-gradient(90deg,var(--blue),var(--red));animation:ld 1.3s ease-out forwards}
+@keyframes ld{from{width:0}to{width:100%}}
+.photo{transition:transform .2s ease-out}
+.orbit{--r:calc(min(340px,80vw)/2 + 42px);position:absolute;inset:0;z-index:2;pointer-events:none;animation:spin 26s linear infinite}
+.orbit i{position:absolute;left:50%;top:50%;transform:rotate(var(--a)) translateX(var(--r))}
+.orbit span{display:block;white-space:nowrap;padding:5px 14px;border-radius:999px;background:var(--glass);border:1px solid var(--blue2);font:600 13px "Instrument Sans",sans-serif;backdrop-filter:blur(6px);translate:-50% -50%;animation:unspin 26s linear infinite}
+.orbit i:nth-child(odd) span{border-color:var(--red)}
+@keyframes unspin{from{transform:rotate(calc(-1*var(--a)))}to{transform:rotate(calc(-1*var(--a) - 360deg))}}
+.card,.num,.cert{background-image:radial-gradient(260px circle at var(--mx,-300px) var(--my,-300px),rgba(95,160,255,.2),transparent 60%)}
+.sim{background:var(--glass);border:1px solid var(--line);border-radius:18px;padding:24px;backdrop-filter:blur(8px)}
+.sts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px}
+.st{border:1px solid var(--line);border-radius:12px;padding:12px;transition:border-color .3s,box-shadow .3s}
+.st.bn{border-color:var(--red);box-shadow:0 0 26px -4px var(--red)}
+.st b{display:block;font:600 16px "Familjen Grotesk",sans-serif}
+.st output{display:block;font-size:13px;color:var(--mute);margin-bottom:6px}
+.st input{width:100%;accent-color:var(--blue)}.st.bn input{accent-color:var(--red)}
+.belt{position:relative;height:64px;margin:22px 0 18px;border-radius:10px;background:repeating-linear-gradient(90deg,#0d1a40 0 22px,#0a1536 22px 44px);border:1px solid var(--line);overflow:hidden}
+.ph1{position:absolute;top:10px;left:-30px;width:22px;height:42px;border-radius:6px;border:2px solid var(--blue2);background:linear-gradient(160deg,#050a14 62%,var(--blue));box-shadow:0 0 14px var(--blue);animation:go 6s linear forwards}
+@keyframes go{to{left:100%}}
+.kp{display:flex;gap:34px;flex-wrap:wrap;align-items:center;color:var(--mute);font-size:14px}
+.kp b{font:700 40px/1 "Familjen Grotesk",sans-serif;background:linear-gradient(120deg,var(--blue2),var(--red));-webkit-background-clip:text;background-clip:text;color:transparent}
+button.btn{background:none;color:var(--ink);font:600 16px "Instrument Sans",sans-serif;cursor:pointer}
+@media(max-width:820px){.orbit{display:none}}
+.gal{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:16px;max-width:620px}
+.gal figure{margin:0;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--glass);transition:transform .3s,border-color .3s}
+.gal figure:hover{transform:translateY(-4px) rotate(-.6deg);border-color:var(--red)}
+.gal .wide{grid-column:1/-1}
+.gal img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center 25%;cursor:zoom-in}
+.gal .wide img{aspect-ratio:16/9;object-position:center}
+.gal figcaption{padding:8px 12px;font-size:13px;color:var(--mute)}
+.proj{background:var(--glass);border:1px solid var(--line);border-radius:20px;padding:26px;backdrop-filter:blur(8px)}
+.pj-head{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:20px}
+.pj-head h3{font-size:clamp(26px,3.4vw,38px)}.pj-head small{font:500 16px "Instrument Sans",sans-serif;color:var(--mute);display:block;margin-top:4px}
+.tag{padding:4px 14px;border-radius:999px;background:linear-gradient(100deg,var(--blue),var(--red));font-size:13px;font-weight:600}
+.pj-grid{display:grid;grid-template-columns:1.35fr 1fr;gap:28px;align-items:start}
+.frame{border-radius:14px;overflow:hidden;border:1px solid var(--line);box-shadow:0 20px 60px -20px rgba(47,107,255,.55);background:#0a1536;position:relative}
+.bar3{display:flex;align-items:center;gap:6px;padding:8px 12px;background:#0d1a40}
+.bar3 i{width:10px;height:10px;border-radius:50%;background:var(--red)}.bar3 i:nth-child(2){background:#ffbd2e}.bar3 i:nth-child(3){background:#27c93f}
+.bar3 span{margin-left:10px;font-size:12px;color:var(--mute)}
+.shots{position:relative;aspect-ratio:16/10;background:#fff;overflow:hidden}
+.shots img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top;opacity:0;pointer-events:none;transform:scale(1);transition:opacity .9s;cursor:zoom-in}
+.shots img.on{opacity:1;pointer-events:auto;animation:kb 6s ease-out forwards}
+@keyframes kb{to{transform:scale(1.06)}}
+.prog{height:3px;background:var(--line)}.prog b{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--blue),var(--red))}
+.cap{margin:14px 2px 10px;font-weight:600;min-height:1.6em}
+.steps{display:flex;gap:8px;flex-wrap:wrap}
+.steps button{border:1px solid var(--line);background:none;color:var(--mute);border-radius:999px;padding:5px 14px;font:500 13px "Instrument Sans",sans-serif;cursor:pointer;transition:.25s}
+.steps button.on{color:#fff;border-color:var(--red);background:rgba(255,46,77,.18)}
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:18px}
+.kpis div{border:1px solid var(--line);border-radius:12px;padding:12px;text-align:center}
+.kpis b{display:block;font:700 28px/1 "Familjen Grotesk",sans-serif;background:linear-gradient(120deg,var(--blue2),var(--red));-webkit-background-clip:text;background-clip:text;color:transparent}
+.kpis span{font-size:12px;color:var(--mute);line-height:1.3;display:block;margin-top:4px}
+.pts{margin:0;padding:0;list-style:none;display:grid;gap:12px}
+.pts li{padding-left:22px;position:relative;color:var(--mute);font-size:15.5px}
+.pts li::before{content:"";position:absolute;left:0;top:9px;width:10px;height:10px;border-radius:3px;background:linear-gradient(120deg,var(--blue),var(--red));transform:rotate(45deg)}
+.pts b{color:#fff}
+@media(max-width:900px){.pj-grid{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){.shots img.on{animation:none}}
+</style>
+</head>
+<body>
+<script>document.documentElement.className='js';setTimeout(function(){var b=document.getElementById('boot');b&&b.classList.add('off')},1500)</script>
+<div id="boot" aria-hidden="true"><div>AG<span></span></div></div><div id="bar"></div>
+<canvas id="fx" aria-hidden="true"></canvas><div id="glow" aria-hidden="true"></div>
+<nav><a href="#impact">Impact</a><a href="#line">Live line</a><a href="#journey">Journey</a><a href="#projects">Projects</a><a href="#expertise">Expertise</a><a href="#certificates">Certificates</a><a href="#contact">Contact</a></nav>
+<div class="wrap">
+
+<header class="hero">
+<div>
+<h1>Andrew George Sabry</h1>
+<div class="role"><span id="typed">Operational Excellence Engineer</span><b>|</b></div>
+<p>I turn manufacturing complexity into smooth, measurable flow, using Lean, Six Sigma, data analytics and AI. My goal is to bring smart manufacturing to smartphone production, where every second of takt time and every point of yield counts.</p>
+<div class="btns"><a class="btn p" href="#journey">See my journey</a><a class="btn" href="https://www.linkedin.com/in/andrewgeorgesabry/">LinkedIn</a></div>
+</div>
+<div class="photo"><div class="orbit" aria-hidden="true"><i style="--a:0deg"><span>Lean</span></i><i style="--a:72deg"><span>Six Sigma</span></i><i style="--a:144deg"><span>AI</span></i><i style="--a:216deg"><span>Data</span></i><i style="--a:288deg"><span>CAD</span></i></div><div class="face"><span class="ini">AG</span><img src="assets/photo.jpg" alt="Portrait of Andrew George Sabry" onerror="this.remove()"></div></div>
+</header>
+
+<section id="impact">
+<h2 class="rv">Results so far</h2>
+<p class="lead rv">Numbers from real production and logistics work, from bakery lines to glass pallets.</p>
+<div class="nums">
+<div class="num rv"><b>~50%</b><span>shorter pallet planning lead time at Kandil Glass</span></div>
+<div class="num rv"><b>+16%</b><span>proposed capacity gain on the Donuts line at Breadfast</span></div>
+<div class="num rv"><b>5</b><span>product lines analysed for waste and cycle time</span></div>
+<div class="num rv"><b>87%</b><span>final grade, Mechanical Power Engineering, with honors</span></div>
+</div>
+</section>
+
+<section id="line">
+<h2 class="rv">Find the bottleneck</h2>
+<p class="lead rv">A mini smartphone line. Drag the sliders to change each station’s cycle time. Output only rises when you speed up the red station, the constraint thinking I use to cut waste.</p>
+<div class="sim rv"><div class="sts" id="sts"></div><div class="belt" id="belt"></div>
+<div class="kp"><div><b id="tp">0</b><br>phones per hour</div><div><b id="bnn">-</b><br>bottleneck</div><div><b id="out">0</b><br>phones shipped</div><button class="btn" id="rst" type="button">Reset line</button></div></div>
+</section>
+
+<section id="journey">
+<h2 class="rv">My journey</h2>
+<p class="lead rv">From Formula Student aerodynamics to Lean factory floors and AI-assisted tools.</p>
+<ol class="tl">
+<li class="now rv"><div class="when">06/2026 – Present</div><h3>Operational Excellence Engineer</h3><div class="org">Kandil Glass, 10th of Ramadan City</div>
+<ul><li>Optimized pallet configurations by product size, packaging, pallet type and destination to maximize logistics efficiency.</li>
+<li>Used AI tools and continuous improvement methods to cut pallet planning lead time by about 50%.</li>
+<li>Built an AI-assisted HTML app that automates pallet optimization in one simple platform.</li>
+<li>Managed SKU creation and master data in ERPNext with standardized item coding.</li>
+<li>Created <a href="#projects"><b>NEXUS</b></a>, a packaging specification generator that cuts calculation time by at least 50%.</li></ul></li>
+<li class="rv"><div class="when">01/2025 – 03/2026</div><h3>Military service</h3><div class="org">Completed, Cairo</div></li>
+<li class="rv"><div class="when">07/2024 – 09/2024</div><h3>Continuous Improvement Engineer Intern</h3><div class="org">Breadfast, 5th Settlement</div>
+<ul><li>Found production inefficiencies with Lean waste analysis and improved bakery workflow.</li>
+<li>Analysed data across 5 product lines and proposed changes to raise Donuts line capacity by 16%.</li>
+<li>Built an Excel dashboard to track production KPIs.</li>
+<li>Monitored workforce productivity and cycle times against daily targets.</li></ul>
+<div class="gal"><figure><img class="zoom" src="assets/breadfast-logo.jpg" alt="Andrew at the Breadfast office" loading="lazy"><figcaption>At the Breadfast office</figcaption></figure>
+<figure><img class="zoom" src="assets/breadfast-certificate-day.jpg" alt="Andrew receiving the Breadfast internship certificate" loading="lazy"><figcaption>Receiving my certificate</figcaption></figure>
+<figure class="wide"><img class="zoom" src="assets/breadfast-team.jpg" alt="Team photo from the Breadfast internship" loading="lazy"><figcaption>Team moment, Summer Internship Program</figcaption></figure></div></li>
+<li class="rv"><div class="when">09/2019 – 09/2024</div><h3>B.Sc. Mechanical Power Engineering</h3><div class="org">Helwan University, Mataria Branch</div>
+<ul><li>Excellent with honors (87.03%). Graduation project graded Excellent.</li>
+<li>Designed and built a corrugated steam separator for green hydrogen production. The results led to a published research paper.</li></ul></li>
+<li class="rv"><div class="when">09/2023 – 10/2023</div><h3>Process and Maintenance Engineer Intern</h3><div class="org">GB AUTO, Alexandria</div>
+<ul><li>Studied automotive assembly and maintenance workflows, and helped spot bottlenecks and downtime causes.</li></ul></li>
+<li class="rv"><div class="when">07/2023 – 08/2023</div><h3>Entrepreneurship Intern</h3><div class="org">ITIDA, Cairo</div>
+<ul><li>Built business models, prototyped solutions and pitched ideas.</li></ul></li>
+<li class="rv"><div class="when">05/2022 – 07/2023</div><h3>Head of Aerodynamics and Frame</h3><div class="org">Brave Racing Team (Formula Student)</div>
+<ul><li>Worked on frame design, materials and aerodynamics using SOLIDWORKS, MATLAB and Ansys.</li></ul></li>
+</ol>
+</section>
+
+<section id="projects">
+<h2 class="rv">Kandil Glass projects</h2>
+<p class="lead rv">Tools I build to turn slow, error-prone packaging calculations into fast, trusted decisions.</p>
+<div class="proj rv">
+<div class="pj-head"><span class="tag">Kandil Glass</span><h3>NEXUS <small>Packaging Specification Generator</small></h3></div>
+<div class="pj-grid">
+<div class="reel" id="reel" aria-label="NEXUS demo reel">
+<div class="frame"><div class="bar3"><i></i><i></i><i></i><span>NEXUS · Kandil</span></div><div class="shots" id="shots"></div><div class="prog"><b id="prog"></b></div></div>
+<div class="cap" id="cap"></div><div class="steps" id="steps"></div>
+</div>
+<div class="pj-info">
+<div class="kpis"><div><b>≥50%</b><span>less calculation time</span></div><div><b>0</b><span>manual calculation errors</span></div><div><b>6</b><span>pallet setups compared at once</span></div></div>
+<ul class="pts">
+<li><b>Faster:</b> one live sheet replaces hand calculations, cutting the time by at least 50%.</li>
+<li><b>Error-free:</b> a single set of formulas drives every number, so human calculation errors are eliminated.</li>
+<li><b>Detailed analytics:</b> units per container, payload efficiency and weight against the container allowance for every pallet type.</li>
+<li><b>Better decisions:</b> Kandil and the customer see the best configuration clearly, which leads to cost savings in packaging and freight.</li>
+<li><b>Ready to share:</b> pallet layout drawings plus packaging manuals exported to PDF and Word.</li>
+<li><b>Easy to use:</b> installable, works offline and adapts to new products and options.</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+
+<section id="expertise">
+<h2 class="rv">Expertise</h2>
+<p class="lead rv">The toolkit I bring to a smartphone production line.</p>
+<div class="grid">
+<div class="card rv"><h3>Continuous improvement</h3><p>Lean waste analysis, cycle time studies, bottleneck hunting and Six Sigma thinking.</p></div>
+<div class="card rv"><h3>Data and dashboards</h3><p>Production data analysis, KPI tracking in Excel and Power BI to support decisions.</p></div>
+<div class="card rv"><h3>AI-driven tools</h3><p>Building practical AI-assisted apps that replace manual calculations with one clear interface.</p></div>
+<div class="card rv"><h3>Engineering design</h3><p>3D modeling in SOLIDWORKS and AutoCAD, plus MATLAB and Ansys from research and racing.</p></div>
+<div class="card rv"><h3>Product and business</h3><p>Product management training and an entrepreneurial mindset focused on measurable impact.</p></div>
+<div class="card rv"><h3>Languages</h3><ul><li>Arabic: native</li><li>English: professional working proficiency</li><li>German: A2</li></ul></div>
+</div>
+</section>
+
+<section id="certificates">
+<h2 class="rv">Certificates</h2>
+<p class="lead rv">Click any certificate to see it full size.</p>
+<div class="certs" id="certs"></div>
+<div class="chips rv"><span>Power BI Fundamentals, DataCamp</span><span>AI Career Essentials, ALX Africa</span><span>Entrepreneurship Pathway, LinkedIn</span></div>
+</section>
+
+<section id="contact" class="contact">
+<h2 class="rv">Let’s improve something together</h2>
+<p class="lead rv">Open to Operational Excellence and Continuous Improvement roles in smartphone manufacturing. Based in Cairo, Egypt.</p>
+<div class="btns rv"><a class="btn p" href="mailto:andrew.sabry08@gmail.com">Email me</a><a class="btn" href="https://www.linkedin.com/in/andrewgeorgesabry/">Connect on LinkedIn</a></div>
+</section>
+</div>
+<footer>© 2026 Andrew George Sabry</footer>
+<div id="lb" role="dialog" aria-label="Certificate preview"><img alt=""></div>
+
+<script>
+// Certificates: add a matching .jpg in /assets and it replaces the placeholder automatically
+var C=[
+["sprints-product-management","Product Management","Sprints x Microsoft Summer Camp, 40 hrs","ID SPR-T39L1S"],
+["gb-corp-internship","GB Corp Summer Internship","Manufacturing, Sep 2023","Completed with good performance"],
+["six-sigma-yellow-belt","Lean Six Sigma Yellow Belt","6SigmaStudy, granted 17 Sep 2024","ID 896097"],
+["breadfast","Breadfast Internship","Certificate of Appreciation, Manufacturing Department, 14 Jul – 8 Sep 2024","Certificate"],
+["innovegypt","Innovegypt / ITIDA","Entrepreneurship, 2023","ID C0371S23T0651"],
+["mint-program","MINT Program","Certificate of completion",""]];
+var box=document.getElementById('certs');
+C.forEach(function(c){
+ var d=document.createElement('div');d.className='cert rv';
+ d.innerHTML='<div class="pic"><div class="ph">'+c[1]+'<small>'+c[3]+'</small></div><img src="assets/'+c[0]+'.jpg" alt="'+c[1]+' certificate" onerror="this.remove()"></div><h3>'+c[1]+'</h3><p>'+c[2]+'</p>';
+ box.appendChild(d);
+ d.addEventListener('mousemove',function(e){var r=d.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;d.style.transform='rotateY('+x*12+'deg) rotateX('+-y*12+'deg) scale(1.03)'});
+ d.addEventListener('mouseleave',function(){d.style.transform=''});
+ d.addEventListener('click',function(){var i=d.querySelector('img');if(i){var l=document.getElementById('lb');l.querySelector('img').src=i.src;l.classList.add('on')}});
+});
+document.querySelectorAll('.zoom').forEach(function(i){i.addEventListener('click',function(){var l=document.getElementById('lb');l.querySelector('img').src=i.src;l.classList.add('on')})});
+document.getElementById('lb').onclick=function(){this.classList.remove('on')};
+document.addEventListener('keydown',function(e){if(e.key==='Escape')document.getElementById('lb').classList.remove('on')});
+
+// Scroll reveal
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
+document.querySelectorAll('.rv').forEach(function(e){io.observe(e)});
+
+var calm=matchMedia('(prefers-reduced-motion:reduce)').matches;
+if(!calm){
+ // Rotating role text
+ var roles=['Operational Excellence Engineer','Continuous Improvement Engineer','Process Engineer','Lean Six Sigma Practitioner'],ri=0,ci=roles[0].length,del=true,t=document.getElementById('typed');
+ setInterval(function(){var w=roles[ri];if(del){ci--;if(ci<=0){del=false;ri=(ri+1)%roles.length}}else{ci++;if(ci>=roles[ri].length)del=true}t.textContent=roles[ri].slice(0,Math.max(ci,0))},70);
+ // Cursor glow
+ var g=document.getElementById('glow');addEventListener('mousemove',function(e){g.style.left=e.clientX+'px';g.style.top=e.clientY+'px'});
+ // Blue and red particle network
+ var cv=document.getElementById('fx'),x=cv.getContext('2d'),W,H,P=[],m={x:-999,y:-999};
+ function rs(){W=cv.width=innerWidth;H=cv.height=innerHeight}rs();addEventListener('resize',rs);
+ addEventListener('mousemove',function(e){m.x=e.clientX;m.y=e.clientY});
+ for(var i=0;i<(innerWidth<700?40:85);i++)P.push({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.5,vy:(Math.random()-.5)*.5,r:Math.random()*1.8+.6,c:Math.random()<.3?'255,46,77':'95,160,255'});
+ (function f(){x.clearRect(0,0,W,H);
+  for(var i=0;i<P.length;i++){var p=P[i];p.x+=p.vx;p.y+=p.vy;if(p.x<0||p.x>W)p.vx*=-1;if(p.y<0||p.y>H)p.vy*=-1;
+   var dx=m.x-p.x,dy=m.y-p.y,d=Math.hypot(dx,dy);if(d<160){p.x-=dx*.012;p.y-=dy*.012}
+   x.fillStyle='rgba('+p.c+',.85)';x.shadowBlur=10;x.shadowColor='rgb('+p.c+')';x.beginPath();x.arc(p.x,p.y,p.r,0,6.3);x.fill();x.shadowBlur=0;
+   for(var j=i+1;j<P.length;j++){var q=P[j],l=Math.hypot(p.x-q.x,p.y-q.y);if(l<120){x.strokeStyle='rgba('+p.c+','+(.22*(1-l/120))+')';x.beginPath();x.moveTo(p.x,p.y);x.lineTo(q.x,q.y);x.stroke()}}}
+  requestAnimationFrame(f)})();
+}
+
+// Live line simulator
+var S=[["SMT",42],["Assembly",55],["Testing",78],["Calibration",48],["Packing",40]],cy=S.map(function(a){return a[1]}),sts=document.getElementById('sts'),belt=document.getElementById('belt'),oc=0;
+S.forEach(function(a,i){var d=document.createElement('div');d.className='st';d.innerHTML='<b>'+a[0]+'</b><output></output><input type="range" min="30" max="90" value="'+a[1]+'" aria-label="'+a[0]+' cycle time in seconds">';sts.appendChild(d);d.querySelector('input').oninput=function(){cy[i]=+this.value;upd()}});
+function mx(){return Math.max.apply(0,cy)}
+function upd(){var m=mx(),b=cy.indexOf(m);[].forEach.call(sts.children,function(d,i){d.classList.toggle('bn',i===b);d.querySelector('output').textContent=cy[i]+' s per phone'});document.getElementById('tp').textContent=Math.round(3600/m);document.getElementById('bnn').textContent=S[b][0]}
+function spawn(){var p=document.createElement('i');p.className='ph1';belt.appendChild(p);p.onanimationend=function(){p.remove();document.getElementById('out').textContent=++oc};setTimeout(spawn,mx()*25)}
+document.getElementById('rst').onclick=function(){S.forEach(function(a,i){cy[i]=a[1];sts.children[i].querySelector('input').value=a[1]});oc=0;document.getElementById('out').textContent=0;upd()};
+upd();if(!calm)spawn();
+// Count-up numbers
+var cio=new IntersectionObserver(function(es){es.forEach(function(e){if(!e.isIntersecting)return;cio.unobserve(e.target);var el=e.target,m=el.textContent.match(/^(\D*)(\d+)(.*)$/);if(!m||calm)return;var n=+m[2],t0=performance.now();(function f(t){var k=Math.min((t-t0)/1500,1);el.textContent=m[1]+Math.round(n*(1-Math.pow(1-k,3)))+m[3];if(k<1)requestAnimationFrame(f)})(t0)})});
+document.querySelectorAll('.num b').forEach(function(b){cio.observe(b)});
+// Scroll bar, card spotlight, photo tilt
+var bar=document.getElementById('bar');addEventListener('scroll',function(){bar.style.width=scrollY/Math.max(1,document.documentElement.scrollHeight-innerHeight)*100+'%'},{passive:true});
+document.addEventListener('mousemove',function(e){var c=e.target.closest&&e.target.closest('.card,.num,.cert');if(c){var r=c.getBoundingClientRect();c.style.setProperty('--mx',e.clientX-r.left+'px');c.style.setProperty('--my',e.clientY-r.top+'px')}});
+var ph=document.querySelector('.photo');if(!calm)document.querySelector('.hero').addEventListener('mousemove',function(e){var x=e.clientX/innerWidth-.5,y=e.clientY/innerHeight-.5;ph.style.transform='perspective(900px) rotateY('+x*16+'deg) rotateX('+-y*16+'deg)'});
+
+// NEXUS demo reel
+var R=[["nexus-1","Fill in the spec and watch units, layers, height and weight update live"],["nexus-2","Auto-generated pallet layout drawing, ready to download"],["nexus-3","Analytics: best units per container and payload efficiency"],["nexus-4","Compare every pallet type against the container weight allowance"],["nexus-5","One-click packaging manual export to PDF and Word"]],ri2=0,rt,sh=document.getElementById('shots'),st=document.getElementById('steps'),pg=document.getElementById('prog'),cp=document.getElementById('cap'),T=4500;
+R.forEach(function(r,i){var im=new Image();im.src='assets/'+r[0]+'.jpg';im.alt=r[1];im.className='zoom';im.loading='lazy';im.addEventListener('click',function(){var l=document.getElementById('lb');l.querySelector('img').src=im.src;l.classList.add('on')});sh.appendChild(im);var b=document.createElement('button');b.type='button';b.textContent=['Spec sheet','Pallet layout','Analytics','Weight check','Manual export'][i];b.onclick=function(){go(i,true)};st.appendChild(b)});
+function go(i,manual){ri2=i;[].forEach.call(sh.children,function(e,k){e.classList.toggle('on',k===i)});[].forEach.call(st.children,function(e,k){e.classList.toggle('on',k===i)});cp.textContent=R[i][1];pg.style.transition='none';pg.style.width='0';if(!calm){void pg.offsetWidth;pg.style.transition='width '+T+'ms linear';pg.style.width='100%'}clearTimeout(rt);if(!calm&&!hold)rt=setTimeout(function(){go((i+1)%R.length)},T)}
+var hold=false,reel=document.getElementById('reel');
+reel.addEventListener('mouseenter',function(){hold=true;clearTimeout(rt);pg.style.transition='none'});reel.addEventListener('mouseleave',function(){hold=false;go(ri2)});
+go(0);
+</script>
+</body>
+</html>
